@@ -16,5 +16,4 @@ fun petAnimal(animal: Any) {
 fun main(){
     val kitty = Cat()
     petAnimal(kitty)
-    // Purr purr
 }

@@ -6,7 +6,7 @@ interface Provider {
 
 interface MyProcessor : () -> String
 
-class MyHolder(val provider: Provider?, val processor: MyProcessor?) {
+private class Holder2(val provider: Provider?, val processor: MyProcessor?) {
     fun process() {
         if (provider != null) {
             provider() // doesn't work in 1.9
